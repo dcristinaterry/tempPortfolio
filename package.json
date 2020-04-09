@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/srcStyle.css -o dist/assets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crisdc88/crisdc88.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crisdc88/crisdc88.github.io/issues"
+  },
+  "homepage": "https://github.com/crisdc88/crisdc88.github.io#readme",
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  }
+}

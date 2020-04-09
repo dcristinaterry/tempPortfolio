@@ -1,11 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Page</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar&display=swap" rel="stylesheet">
 </head>
-<body>
-    <h1>blabla</h1>
+
+
+
+
+
+
+
+
+<body class="font-sans antialiased">
+
+    <header class="bg-seconhandgrey pt-32 sm:pt-24 pb-56 ">
+        <div class="container">
+            <div class="text-center">
+                <h1 class="text-white font-serif font-black text-6xl mb-2 pt-6">Cristina Terry</h1> 
+                <h3 class="text-white font-serif font-black">Software Engineer / Full-Stack Developer</h3>
+
+            </div>
+        </div>
+    </header>
+
+    <section id="section1" class="-mt-40  py-12 relative">
+        <div id="s1div1" class="py-4 md:ml-16">
+            <div id="s1div2" class="flex flex-wrap">
+                <div id="s1div3" class="flex flex-col w-full md:w-2/3 lg:w-3/4">
+                    <div id="bio" class="flex flex-wrap bg-whitish rounded-lg overflow-hidden shadow-lg relative">
+                        <div id="myphoto" class="bg-cover md:w1/2 flex">
+                            <img class="h-64  object-cover object-center"
+                                src="./assets/8FCB1AE1-8323-41A6-9EC7-28171690BA39_1_201_a.jpeg">
+
+                                <div class="items-center p-6 ">
+                                    <h1 class="text-gray-800 font-mukta text-4xl">Bio</h1>
+                                    <p>I’m a Software engineer focused on building different fullStack projects with the latest technologies.  
+                                        Throughout the years I have serverd in multiple roles and phases of software development including 
+                                        Java backend development, black box testing and as a Systems Analyst role. 
+                                         Due to my diverse backgroung I'm able to pursue suitable solutions, and finding way to improve
+                                         processes as a whole.</p>
+                                </div>
+
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+                <div class="flex flex-col md:pl-8 w-full md:w-1/3 lg:w-1/4">
+                    <div class="md:mb-6 md:h-32 text-center md:text-left mt-6 md:mt-0 md:flex md:items-center">
+                        <h2 class="text-black md:text-deeporange text-4xl" itemprop="name">Personal Portfolio</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="flex flex-wrap pt-12">
+                <div class="w-full md:w-2/3 lg:w-3/4">
+                    <div class="mb-8">
+                        <h4 class="text-lg text-black mb-4">Description</h4>
+                        <div class="bg-white text-black p-4 leading-normal rounded-lg shadow" itemprop="description">
+                            Cristina Terry's personal portfolio website.
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="text-lg text-gray-800 mb-4">VISIT</h4>
+
+                        <div class="items-center mb-3">
+
+                            <h3 class="text-sm text-gray-800 font-semibold" itemprop="author">
+                                <a href="https://github.com/crisdc88" target="_blank">GitHub</a>
+                            </h3>
+                            <h3 class="text-sm text-gray-800 font-semibold" itemprop="author">
+                                <a href="https://www.linkedin.com/in/dcristinaterry/" target="_blank">LinkedIn</a>
+                            </h3>
+                            <h3 class="text-sm text-gray-800 font-semibold" itemprop="author">
+                                <a href="./assets/Resume_CristinaTerry-02162017_CA.pdf" target="_blank">Resume</a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-gray-100  md:py-12 ">
+        <div class="container md:ml-16">
+            <h4 class="text-black text-center font-serif font-bold text-3xl mb-12">Check out some of my projects
+            </h4>
+
+
+            <div class="flex flex-wrap -mx-3">
+
+
+                <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16" itemscope=""
+                    itemtype="https://schema.org/WebSite">
+
+                    <!-- <a href="https://popsizzle.github.io/API-Group-Project/" -->
+                    <div
+                        class="no-underline bg-white transition shadow-lg hover:shadow hover:-translateY-sm flex flex-1 flex-col rounded-lg overflow-hidden">
+
+                        <a href="https://popsizzle.github.io/API-Group-Project/" target="_blank">
+
+                            <div class="w-full shadow-inner bg-dark-100 bg-cover bg-top min-h-item py-24"
+                                style="background-image: url('./assets/download.jpeg')">
+                            </div>
+                            <div class="flex flex-1 flex-col justify-between p-4 border-t">
+                                <div>
+                                    <h3 class="font-bold text-xl mb-2 text-black" itemprop="name">GameBoard</h3>
+                                    <p class="leading-normal text-grey-darkest text-sm " itemprop="description">This
+                                        is a small application put together to recommend Board Games and give
+                                        information
+                                        about your favorite games.</p>
+
+                                </div>
+                                <div class="mt-6 text-right overflow-hidden">
+                                    <!-- <a href="https://popsizzle.github.io/API-Group-Project/"></a> -->
+                                    <span class="inline-flex items-center   text-grey-darker ml-3" title="Views">
+                                        <a class="text-sm  font-bold"
+                                            href="https://github.com/PopSizzle/API-Group-Project" target="_blank">GitHub Repo</a>
+
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- </a> -->
+
+
+                </div>
+
+
+
+
+
+                <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16" itemscope=""
+                    itemtype="https://schema.org/WebSite">
+
+
+                    <div
+                        class="no-underline bg-white transition shadow-lg hover:shadow hover:-translateY-sm flex flex-1 flex-col rounded-lg overflow-hidden">
+                        <a href="https://crisdc88.github.io/H6-WEATHER-INFO/" target="_blank">
+                            <div class="w-full shadow-inner bg-dark-100 bg-cover bg-top min-h-item ">
+
+                                <img class="object-cover object-center"
+                                    src="./assets/Screen Shot 2020-04-08 at 11.01.09 PM.png">
+                            </div>
+                            <div class="flex flex-1 flex-col justify-between p-4 border-t">
+                                <div>
+                                    <h3 class="font-bold text-xl mb-2 text-black" itemprop="name">Weather Dashboard</h3>
+                                    <p class="leading-normal text-grey-darkest text-sm " itemprop="description">This
+                                        application will give information about the weather for a specific city.</p>
+                                </div>
+                                <div class="mt-6 text-right overflow-hidden">
+                                    <span class="inline-flex items-center   text-grey-darker ml-3" title="Views">
+                                        <a class="text-sm  font-bold"
+                                            href="https://github.com/crisdc88/H6-WEATHER-INFO" target="_blank">GitHub Repo</a>
+
+                                    </span>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="w-full md:w-1/2 lg:w-1/3 flex flex-col px-3 mb-16" itemscope=""
+                    itemtype="https://schema.org/WebSite">
+
+
+                    <div
+                        class="no-underline bg-white transition shadow-lg hover:shadow hover:-translateY-sm flex flex-1 flex-col rounded-lg overflow-hidden">
+                        <a href="https://crisdc88.github.io/H4-JS-QUIZ/" target="_blank">
+                            <div class="w-full shadow-inner bg-dark-100 bg-cover bg-top min-h-item">
+                                <img class="object-cover object-center"
+                                    src="./assets/Screen Shot 2020-04-08 at 11.23.07 PM.png">
+                            </div>
+
+                            <div class="flex flex-1 flex-col justify-between p-4 border-t">
+                                <div>
+                                    <h3 class="font-bold text-xl mb-2 text-black" itemprop="name">JavaScript Quiz</h3>
+                                    <p class="leading-normal text-grey-darkest text-sm " itemprop="description">
+                                        This application presents the opportunity to take a simple quiz to test your
+                                        JavaScript knowledge.</p>
+                                </div>
+                                <div class="mt-6 text-right">
+                                    <span class="inline-flex items-center   text-grey-darker ml-3" title="Views">
+                                        <a class="text-sm  font-bold"
+                                            href="https://github.com/crisdc88/H4-JS-QUIZ" target="_blank">GitHub Repo</a>
+
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-seconhandgrey py-12">
+        <div class="text-center">
+
+            <h3 class="text-deeporange font-serif font-light">Built with Tailwind CSS.</h3>
+        </div>
+    </footer>
+
+
+
+
 </body>
+
 </html>
